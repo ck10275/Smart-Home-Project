@@ -1,0 +1,71 @@
+:root {
+  --bg: #0d0f14;
+  --surface: #141720;
+  --surface2: #1c2030;
+  --surface3: #242840;
+  --border: rgba(255,255,255,0.07);
+  --border-hover: rgba(255,255,255,0.14);
+
+  --text: #e8eaf0;
+  --text-muted: #7a7f96;
+  --text-dim: #4a4f65;
+
+  --accent: #6c8efb;
+  --accent-glow: rgba(108,142,251,0.2);
+  --accent2: #a78bfa;
+  --accent3: #34d399;
+
+  --light-on: #fbbf24;
+  --light-glow: rgba(251,191,36,0.15);
+  --fan-on: #60a5fa;
+  --fan-glow: rgba(96,165,250,0.15);
+  --heat: #f97316;
+  --heat-glow: rgba(249,115,22,0.15);
+  --cool: #38bdf8;
+  --cool-glow: rgba(56,189,248,0.15);
+  --lock: #a78bfa;
+  --lock-glow: rgba(167,139,250,0.15);
+  --off: #374151;
+
+  --radius: 16px;
+  --radius-sm: 8px;
+  --radius-xs: 4px;
+  --shadow: 0 4px 24px rgba(0,0,0,0.4);
+  --shadow-lg: 0 8px 48px rgba(0,0,0,0.6);
+
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  color: var(--text);
+  background: var(--bg);
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--bg);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: var(--surface); }
+::-webkit-scrollbar-thumb { background: var(--surface3); border-radius: 3px; }
+
+button {
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+input, select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+.sr-only {
+  position: absolute; width: 1px; height: 1px;
+  padding: 0; margin: -1px; overflow: hidden;
+  clip: rect(0,0,0,0); border: 0;
+}

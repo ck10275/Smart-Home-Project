@@ -1,0 +1,157 @@
+{
+  "devices" : [ {
+    "type" : "LIGHT",
+    "id" : "752fc2e8-9427-4d03-a795-76090791c0ff",
+    "name" : "Living Room Overhead",
+    "location" : "Living Room",
+    "type" : "LIGHT",
+    "state" : "OFF",
+    "brightness" : 80,
+    "color" : "#FFF8DC",
+    "on" : false
+  }, {
+    "type" : "LIGHT",
+    "id" : "923d8c24-f016-41a2-9041-cf359c0e40d9",
+    "name" : "Floor Lamp",
+    "location" : "Living Room",
+    "type" : "LIGHT",
+    "state" : "OFF",
+    "brightness" : 60,
+    "color" : "#FF8800",
+    "on" : false
+  }, {
+    "type" : "FAN",
+    "id" : "c6cc91a2-f84a-40e0-9f96-a224bad4bd19",
+    "name" : "Ceiling Fan",
+    "location" : "Living Room",
+    "type" : "FAN",
+    "state" : "OFF",
+    "lastSpeed" : "MEDIUM",
+    "on" : false
+  }, {
+    "type" : "DOOR_LOCK",
+    "id" : "1db9cfdc-2be3-41ef-b798-4d81c99b06a1",
+    "name" : "Front Door",
+    "location" : "Living Room",
+    "type" : "DOOR_LOCK",
+    "state" : "LOCKED",
+    "on" : true
+  }, {
+    "type" : "LIGHT",
+    "id" : "99a04f2c-5bb3-4ddd-9810-71a1e991d6d9",
+    "name" : "Kitchen Overhead",
+    "location" : "Kitchen",
+    "type" : "LIGHT",
+    "state" : "OFF",
+    "brightness" : 100,
+    "color" : "#FFFFFF",
+    "on" : false
+  }, {
+    "type" : "LIGHT",
+    "id" : "52bc7e74-3bbb-4323-9028-f8e31d4d70e6",
+    "name" : "Under-Cabinet Lights",
+    "location" : "Kitchen",
+    "type" : "LIGHT",
+    "state" : "OFF",
+    "brightness" : 50,
+    "color" : "#FFD700",
+    "on" : false
+  }, {
+    "type" : "FAN",
+    "id" : "872e06c6-528b-4416-9936-acedf50cd220",
+    "name" : "Range Hood Fan",
+    "location" : "Kitchen",
+    "type" : "FAN",
+    "state" : "OFF",
+    "lastSpeed" : "MEDIUM",
+    "on" : false
+  }, {
+    "type" : "DOOR_LOCK",
+    "id" : "55b5e69c-3106-4220-b0a5-70235fef68eb",
+    "name" : "Back Door",
+    "location" : "Kitchen",
+    "type" : "DOOR_LOCK",
+    "state" : "LOCKED",
+    "on" : true
+  }, {
+    "type" : "LIGHT",
+    "id" : "140045b2-1aed-460d-acb1-497746bb3007",
+    "name" : "Bedroom Overhead",
+    "location" : "Master Bedroom",
+    "type" : "LIGHT",
+    "state" : "OFF",
+    "brightness" : 40,
+    "color" : "#FF4500",
+    "on" : false
+  }, {
+    "type" : "FAN",
+    "id" : "8cbc8373-f0d5-42ea-95ff-7e4258586988",
+    "name" : "Bedroom Fan",
+    "location" : "Master Bedroom",
+    "type" : "FAN",
+    "state" : "OFF",
+    "lastSpeed" : "MEDIUM",
+    "on" : false
+  }, {
+    "type" : "DOOR_LOCK",
+    "id" : "c4b3c02b-1800-471f-a935-15791547f391",
+    "name" : "Bedroom Door Lock",
+    "location" : "Master Bedroom",
+    "type" : "DOOR_LOCK",
+    "state" : "LOCKED",
+    "on" : true
+  }, {
+    "type" : "LIGHT",
+    "id" : "5661661f-dd36-4278-810d-b520b9304fab",
+    "name" : "Garage Lights",
+    "location" : "Garage",
+    "type" : "LIGHT",
+    "state" : "OFF",
+    "brightness" : 100,
+    "color" : "#FFFFFF",
+    "on" : false
+  }, {
+    "type" : "FAN",
+    "id" : "5857549f-92cf-4dbd-8fcb-14aa937e4612",
+    "name" : "Garage Ventilation Fan",
+    "location" : "Garage",
+    "type" : "FAN",
+    "state" : "OFF",
+    "lastSpeed" : "MEDIUM",
+    "on" : false
+  }, {
+    "type" : "DOOR_LOCK",
+    "id" : "7e35ef1f-fcb8-47b4-91f8-a686b29d341a",
+    "name" : "Garage Door Lock",
+    "location" : "Garage",
+    "type" : "DOOR_LOCK",
+    "state" : "LOCKED",
+    "on" : true
+  }, {
+    "type" : "THERMOSTAT",
+    "id" : "33510d88-aae5-40ce-849d-4833a3987b2b",
+    "name" : "Main Thermostat",
+    "location" : "Living Room",
+    "type" : "THERMOSTAT",
+    "state" : "OFF",
+    "mode" : "AUTO",
+    "desiredTemperature" : 72.0,
+    "ambientTemperature" : 68.0,
+    "on" : false
+  }, {
+    "type" : "THERMOSTAT",
+    "id" : "64776b0d-ec74-4e5f-b94f-de82dbe6c26f",
+    "name" : "Bedroom Thermostat",
+    "location" : "Master Bedroom",
+    "type" : "THERMOSTAT",
+    "state" : "OFF",
+    "mode" : "COOL",
+    "desiredTemperature" : 68.0,
+    "ambientTemperature" : 75.0,
+    "on" : false
+  } ],
+  "commandHistory" : [ ],
+  "simulationSettings" : {
+    "speedMultiplier" : 1
+  }
+}
