@@ -15,3 +15,7 @@ download all the files and put them into a single folder titled smarthome.
 open a command prompt and run the backend and the frontend simaultaneously in 2 different commands prompts
 then open google and head to http://localhost:3000 and it should be there and you should be able to interact with it. 
 I also wanted to say this project was probably the biggest project I have ever done in my entire school career so far and I learned a ton. I know that I am missing key stuff but I was not able to figure it out myself but I did try my best. 
+
+https://www.loom.com/share/bdfefdecdae843fab5eb9fb403dba86a     The demo
+
+https://www.loom.com/share/b3310a2f800043ab9c73ed865ca78d34    background information
